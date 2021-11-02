@@ -1,0 +1,1 @@
+// TODO: Brainstorm uses for either object-based Javascript jobs or pure method based javascript

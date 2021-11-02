@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ProfessionMainPage</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <script src="js/script.js"></script>
+    <header class="navbar">
+        <li id="iconDisplayRoot">
+            <img src="images/iconProfessional.png" id="iconDisplay"></img>
+        </li>
+        <li class="navBarOption"><a href="index.html">
+                <p>Career</p>
+            </a>
+        </li>
+        <li class="navBarOption"><a href="ticketSales.html">
+                <p>Personal</p>
+            </a>
+        </li>
+
+    </header>
+
+    <div id="row1">
+        <iframe src="files/placeholderResume.pdf" id="resumeDisplay">
+        </iframe>
+
+        <div id="formContainer">
+            <h1>Questions or Inquiries?</h1>
+            <h5>Send me an email below!</h5>
+            <form id="emailForm">
+                <label for="firstName"><p>First Name:</p></label>
+                <input type="text" id=firstName><br>
+                <label for="lastName"><p>Last Name:</p></label>
+                <input type="text" id="lastName"><br>
+                <label for="emailContent"><p>Type Email Message Here:</p></label>
+                <textarea name="emailContent" id="emailContent" form="emailForm"></textarea><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </div>
+    </div>
+    <div id="row2">
+        <!-- LinkedIn Button -->
+    </div>
+
+</body>
+
+</html>
